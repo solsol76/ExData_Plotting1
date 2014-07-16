@@ -11,7 +11,7 @@ plot3 <- function() {
   data <- load_data()
   
   
-  png("plot3.png", width=400, height=400)
+  png("plot3.png", width=480, height=480)
   
   
   plot(data$Time, data$Sub_metering_1, type="l", col="black",
